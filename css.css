@@ -1,0 +1,59 @@
+.card {
+  width: 300px; /* Fixed width for the card */
+  height: auto; /* Automatic height based on content */
+  margin: 40px auto; /* Center the card vertically with margin on top and bottom */
+  display: flex; /* Use flexbox to arrange children */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Space between children */
+  align-items: center; /* Center children horizontally */
+}
+
+img {
+  width: inherit; /* Image takes full width of the card */
+  border-radius: 10px; /* Rounded corners for the image */
+}
+
+.download {
+  padding: 10px; /* Padding for the download button */
+  background-color: rgb(255, 255, 255); /* White background for the button */
+  border-radius: 10%; /* Rounded corners */
+  margin-bottom: 8%; /* Space from the bottom of the card */
+  /* display: none; */ /* Uncomment if needed */
+}
+
+.likes {
+  padding: 10px; /* Padding for the likes button */
+  margin-right: 70px;
+  background-color: rgb(255, 255, 255); /* White background for the button */
+  border-radius: 10%; /* Rounded corners */
+  margin-top: 8%; /* Space from the top of the card */
+  /* display: none; */ /* Uncomment if needed */
+}
+
+.likes:hover {
+  background-color: rgb(255, 0, 0); /* Change background on hover */
+  color: black; /* Change text color on hover */
+}
+
+.download:hover {
+  background-color: rgba(255, 0, 0, 0.276); /* Change background on hover */
+  color: black; /* Change text color on hover */
+}
+
+
+
+.fav{
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  font-size: 30px;
+  font-weight: bold;
+  border-color: aqua;
+  background-color: rgb(255, 60, 0);
+  border-radius: 30px;
+}
+
+
+  
+
+
