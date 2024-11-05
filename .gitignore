@@ -1,0 +1,10 @@
+# ignonre .vscode files
+*.vscode
+
+# ignore node modules folder
+node_modules/
+
+#ignore json files
+*.json
+
+tailwind.config.js
